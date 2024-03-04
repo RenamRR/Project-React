@@ -4,6 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Component from './components/Component'
 import Templates from './components/Templates'
+import MyComponent from './components/MyComponent'
+import MyButton from './components/MyButton'
+import Soma from './components/Soma'
+
+
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +19,9 @@ function App() {
     <>
       <Component />
       <Templates />
+      <MyComponent />
+      <MyButton />
+      <Soma />
     </>
   )
 }
