@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import './App.css'
-import logodc from './assets/dcjs.png'
-import ManageData from './components/ManageData'
-import ListRender from './components/ListRender'
-
+import { useState } from "react";
+import "./App.css";
+import logodc from "./assets/dcjs.png";
+import ManageData from "./components/ManageData";
+import ListRender from "./components/ListRender";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -18,13 +17,13 @@ function App() {
         </div>
         {/*Imagem em asset*/}
         <div>
-          <img src={logodc} alt="LogoDc" width={200} height={200}/>
+          <img src={logodc} alt="LogoDc" width={200} height={200} />
         </div>
         <ManageData />
         <ListRender />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
